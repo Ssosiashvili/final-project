@@ -38,7 +38,7 @@
 
 .about-background {
 	font-family: 'Poppins-extraBold';
-	font-size: 158px;
+	font-size: 112.71px;
 	color: #7E7E7E;
 	position: absolute;
 	top: 50px;
@@ -47,17 +47,18 @@
 #about {
 	color: #373737;
 	font-family: 'Poppins-extraBold';
-	font-size: 43.17px;
+	font-size: 30.74px;
 	position: absolute;
 	display: inline-block;
 	top: 106.4px;
-	right: 65.7px;
+	right: 81.7px;
 	z-index: 1;
 }
 .box1 {
 	position: absolute;
-	right: 300.29px;
-	bottom: 300px;
+	right: 219.29px;
+	/* top: 265.07px */
+	bottom: 220px;
 }
 
 .greetings {
@@ -127,21 +128,21 @@
 	width: 80%;
 	margin: 0 auto;
 	padding-top: 96.12px;
-	justify-content: center;
-	flex-wrap: nowrap;	
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	
 }
 
 .more-about {
 	max-width: 25%;
 	text-align: justify;
 	text-align-last: right;
-	margin-right: 65px;
-	margin-top:  67.64px;
 }
 
 .name {
 	font-family: 'GlacialIndifference-Bold';
 	font-size: 28.48px;
+	margin-top:  67.64px;
 	margin-bottom: 7px;
 }
 
@@ -176,11 +177,6 @@
 	background-color: #131A36;
 	color: #E93656;
 	transition: .5s;
-}
-.me {
-	width: 28%;
-	margin-right: 65px;
-	min-width: 407px;
 }
 .me img {
 	width: 100%;
@@ -856,12 +852,4 @@ textarea {
 }
 .roca1 {
 	color: #FFFFFF;
-}
-
-
-@media (max-width: 1400px) {
-	.box1 {
-		bottom: 200px;
-		right: 250px;
-	}
 }

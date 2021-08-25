@@ -34,7 +34,7 @@ let currentProgress = 0;
 
 window.addEventListener('scroll', function() {
     for( let i =0; i <progress.length; i++ ){
-        if(html.scrollTop + window.innerHeight > progress[i].offsetTop) {
+        if(html.scrollTop + window.innerHeight > progress[i].offsetTop&&html.scrollTop + progress[i].offsetHeight < progress[i].offsetTop ) {
             progress[i].classList.add('visible')
         }else{
             progress[i].classList.remove('visible')
