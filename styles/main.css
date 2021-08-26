@@ -437,28 +437,39 @@
 	background-image: url('../images/background-img.jpg');
 	justify-content: center	;
 	margin-top: 150px;
-	padding: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	flex-wrap: nowrap;
 }
+.three-blocks{
+	width: 80%;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
 .quotes {
-	max-width: 500px;
+	width: 40%;
 	margin-right: 50px;
 	font-family: 'Roboto-Light';
 	font-size: 15px;
 	text-align: right;
 	color: #FFFFFF;
 }
+.quotes-line {
+	width: 100%;
+}
+
 .personImg {
 	width: 170px;
 	height: 170px;
 	border: dashed 1px #FFFFFF;
 	border-radius: 50%;
-	margin-right: 50px;
 	padding: 15px;
 	overflow: hidden;
+	margin-right: 30px;
 }
 #forImage{
-	height: 140px;
+	height:auto;
 	width: 140px;
 	border-radius: 50%;
 }
@@ -475,7 +486,8 @@
 	color: #FFFFFF;
 }
 .professionAndName {
-	margin-right: 151px;
+	width: 21%;
+	margin-right: 10%;
 }
 button {
 	width: 15px;
@@ -863,5 +875,141 @@ textarea {
 	.box1 {
 		bottom: 200px;
 		right: 250px;
+	}
+}
+@media (max-width: 1364px) {
+	.leftBox {
+		padding-top: 7px;
+	}
+	.firstBlock {
+		width: 100%;
+	}
+	.secondBlock {
+		width: 100%;
+	}
+	.thirdBlock {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1266px) {
+	.about-me {
+		width: 90%;
+	}
+}
+
+@media (max-width: 1025px) {
+	.about-me {
+		width: 98%;
+	}
+	.more-about{
+		margin-right: 30px;
+	}
+	.me{
+		margin-right: 30px;
+	}
+	#about{
+		font-size: 30px;
+		top: 50.4px;
+		right: 20px;
+	}
+	.about-background {
+		font-size:90px;
+		top: 20px;
+		right: 40px;
+	}
+	.box1 {
+		bottom: 200px;
+		right: 150px;
+	}
+	.greetings {
+		font-family:'GlacialIndifference-Regular';
+		font-size: 35.39px;
+	}
+	.full-name {
+		font-family: 'GlacialIndifference-Bold';
+		font-size: 40px;
+		margin-top: 10px;
+	}
+	
+	.job-title {
+		font-family:'GlacialIndifference-Regular';
+		font-size: 16.58px;
+		margin-top: 10px;
+	}
+	.social-icons {
+		margin-top: 10px;
+	}
+	.social-icons>li:hover {
+		transition: all .3s;
+		margin-top: -5px;
+	}
+	
+	.clients-satisfaction {
+		width: 20%;
+		right:20px;
+		bottom: 20px;
+		padding-bottom: 0px;
+	}
+	.firstLine {
+		width: 85%;
+	}
+	.secondLine {
+		width: 85%;
+	}
+	.services {
+		margin-top: 100px;
+	}
+	.recommendations {
+		margin-top: 100px;
+	}
+	.professionAndName {
+		margin-right: 0%;
+	}
+	.last_projects {
+		margin-top: 80px;
+		font-size: 55px;
+	}
+	.projects-categories {
+		width: 98%;
+		margin-bottom: 100px;
+	}
+	.categories {
+		padding-left: 30px;
+		padding-top: 30px;
+		padding-right: 30px;
+	}
+	.sameHeader {
+		font-size: 60px;
+		margin-bottom: 65px;
+	}
+	.boxImg {
+		width: 50px;
+		height: 50px;
+		margin-bottom: 20px;
+	}
+	.leftBox {
+		width: auto;
+	}
+	.rotate {
+		transform:rotate(-90deg) translateY(-130%);
+	}
+	.thirdBlock {
+		margin-bottom: 100px;
+	}
+	.partnersList {
+		width: 80%;
+	}
+	.teamsList {
+		margin-bottom: 100px;
+	}
+	.wrapper {
+		width: auto;
+	}
+	.rocaHeader {
+		font-size: 60px;
+	}
+	.rocaPh {
+		width: 55%;
 	}
 }
