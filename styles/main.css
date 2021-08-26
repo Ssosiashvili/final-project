@@ -385,14 +385,17 @@
 	align-items: center;
 	flex-wrap: nowrap;	
 }
-.serviceImg {
+.sectionImg {
 	margin-top: 100px;
 	max-width: 60px;
 	width: 21.01%;
 	min-width: 45px;
 	max-width: 60px;
 	height: 45px;
-	
+}
+.serviceImg {
+	width: 100%;
+	height: 100%;
 }
 .serviceName {
     font-family: 'GlacialIndifference-Bold';
@@ -416,7 +419,7 @@
 	cursor: pointer;
 	
 }
-.lineForHide :hover .serviceImg {
+.lineForHide :hover .sectionImg {
 	display: none;
 }
 
@@ -923,17 +926,14 @@ textarea {
 		right: 150px;
 	}
 	.greetings {
-		font-family:'GlacialIndifference-Regular';
 		font-size: 35.39px;
 	}
 	.full-name {
-		font-family: 'GlacialIndifference-Bold';
 		font-size: 40px;
 		margin-top: 10px;
 	}
 	
 	.job-title {
-		font-family:'GlacialIndifference-Regular';
 		font-size: 16.58px;
 		margin-top: 10px;
 	}
@@ -960,6 +960,7 @@ textarea {
 	.services {
 		margin-top: 100px;
 	}
+
 	.recommendations {
 		margin-top: 100px;
 	}
@@ -1005,6 +1006,211 @@ textarea {
 	}
 	.wrapper {
 		width: auto;
+	}
+	.rocaHeader {
+		font-size: 60px;
+	}
+	.rocaPh {
+		width: 55%;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.template {
+		top: 20px;
+		left: 20px;
+		font-size: 30px;
+	}
+
+	.about-background {
+		font-size:65px;
+		top: 1px;
+		right: 40px;
+	}
+	.box1 {
+		bottom: 150px;
+		right: 100px;
+	}
+	.greetings {
+		font-size: 20px;
+	}
+	.full-name {
+		font-size: 25px;
+		margin-top: 5px;
+	}
+	
+	.job-title {
+		font-size: 15px;
+		margin-top: 5px;
+	}
+	.social-icons {
+		height: 15px;
+		margin-top: 10px;
+	}
+	.percent {
+		height: 4px;
+		margin: 10px auto;
+	}
+
+	.clients-satisfaction>span {
+		font-size: 12px;
+	}
+	.clients-satisfaction {
+		font-size: 20px;
+		width: 20%;
+		right:20px;
+		bottom: 20px;
+		padding-bottom: 0px;
+	}
+	.about-me {
+		width: 99%;
+		justify-content: center;
+	}
+	.more-about {
+		max-width: 27%;
+		text-align: justify;
+		text-align-last: right;
+		margin-top:  30px;
+		margin-right: 10px;
+	}
+	.thingsIKnow {
+		width: 24%;
+		margin-top:  30px;
+	}
+	.percentage {
+		margin: 10px auto;
+	}
+	.name {
+		font-size: 25px;
+	}
+
+	.me{
+		min-width: 307px;
+		min-height: 456px;
+		margin-right: 10px;
+	}
+	.personal-social {
+		margin-top: 0px;
+		flex-wrap: nowrap;
+	}
+	.personal-social li {
+		margin-right: 3px;
+		width: 40px;
+		height: 40px;
+	}
+	#about{
+		font-size: 25px;
+		top: 20px;
+		right: 10px;
+	}
+	.contacts-block {
+		justify-content: space-around;
+	}
+	.same-pics {
+		width: 65px;
+		height: 65px;
+		margin-right: 10px;
+	}
+	.same-sizes {
+		font-size: 20px;
+		margin-right: 5px;
+	}
+	.firstLine {
+		width: 95%;
+	}
+	.secondLine {
+		width: 95%;
+	}
+	.services {
+		margin-top: 0px;
+	}
+	.sectionBlock {
+		flex-wrap: nowrap;
+		height: 240px;
+	}
+	.sectionImg {
+		margin-top: 70px;
+	}
+	.recommendations {
+		margin-top: 100px;
+	}
+	.professionAndName {
+		margin-right: 0%;
+	}
+	.personName {
+		font-size: 18px;
+	}
+	.personImg {
+		width: 120px;
+		height: 120px;
+		padding: 10px;
+		margin-right: 10px;
+	}
+	.three-blocks {
+		justify-content: space-around;
+	}
+	.quotes {
+		margin-right: 0px;
+	}
+	#forImage {
+		height: auto;
+		width: 100px;
+		border-radius: 50%;
+	}
+	.last_projects {
+		margin-top: 80px;
+		font-size: 55px;
+	}
+	.projects-categories {
+		width: 98%;
+		margin-bottom: 80px;
+	}
+	.filters li {
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	/* .boxImg {
+ 	display: none;
+	}
+	.where {
+		display: none;
+	} */
+	.articleFrom {
+		font-size: 25px;
+		margin-left: 0px;
+		margin-bottom: 5px;
+	}
+	.article {
+		margin-left: 0px;
+		margin-bottom: 5px;
+	}
+	.rightBox {
+		width: auto;
+	}
+	.readMore {
+		margin-left: 0px;
+	}
+	.rotate {
+		font-size: 20px;
+		width: 155px;
+		height: 30px;
+		transform:rotate(-90deg) translateY(-150%);
+	}
+	.midleBox {
+		padding-top: 17%;
+	}
+	.thirdBlock {
+		margin-bottom: 100px;
+	}
+	.partnersList {
+		width: 80%;
+	}
+	.teamsList {
+		margin-bottom: 100px;
+	}
+	.wrapper {
+		width: 80%;
 	}
 	.rocaHeader {
 		font-size: 60px;

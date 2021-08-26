@@ -47,20 +47,20 @@ window.addEventListener('scroll', function() {
 //for slider section 4
 
 let quotImages = [
-    'images/iroh.jpeg',
     'images/oberyn.jpeg',
+    'images/iroh.jpeg',
     'images/greg.jpeg',
 ];
 
 let quotNames = [
-    'Uncle Iroh',
     "Oberyn Martell",
+    'Uncle Iroh',
     'Gregory (Greg)',
 ]
 
 let professions = [
-    'Fire Bender',
     'Red Viper',
+    'Fire Bender',
     'otgw character',
 
 ]
