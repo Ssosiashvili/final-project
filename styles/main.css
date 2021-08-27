@@ -1074,6 +1074,9 @@ textarea {
 		margin-top:  30px;
 		margin-right: 10px;
 	}
+	.biography {
+		margin-bottom: 0px;
+	}
 	.thingsIKnow {
 		width: 24%;
 		margin-top:  30px;
@@ -1212,10 +1215,375 @@ textarea {
 	.wrapper {
 		width: 80%;
 	}
-	.rocaHeader {
-		font-size: 60px;
+}
+
+
+@media (max-width: 759px) {
+	.template {
+		top: 15px;
+		left: 15px;
+		font-size: 15px;
+		color: #f5d064
 	}
-	.rocaPh {
-		width: 55%;
+
+	.about-background {
+		font-size:30px;
+		top: 5px;
+		right: 25px;
+		display: none;
+	}
+	#about{
+		font-size: 13px;
+		top: 13px;
+		right: 5px;
+		display: none;
+	}
+	.box1 {
+		flex-wrap: nowrap;
+		top: 37px;
+		right: 15px;
+		width: 135px;
+	}
+	.greetings {
+		color: #DFDFDF;
+		font-size: 10px;
+	}
+	.full-name {
+		color: #DFDFDF;
+		font-size: 13px;
+		margin-top: 2px;
+	}
+	
+	.job-title {
+		font-size: 10px;
+		margin-top: 2px;
+		color: #DFDFDF;
+	}
+	.social-icons {
+		height: 10px;
+		margin-top: 7px;
+	}
+	.percent {
+		background-color: #DFDFDF;
+		height: 2px;
+		margin: 5px auto;
+	}
+
+	.clients-satisfaction>span {
+		font-size: 8px;
+	}
+	.clients-satisfaction {
+		font-size: 8px;
+		width: 25%;
+		right:30px;
+		bottom: 10px;
+		padding-bottom: 0px;
+		color: #DFDFDF;
+	}
+	.about-me {
+		max-width: 759px;
+		width: 100%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center; 
+		padding-top: 0px;
+	}
+	
+	.more-about {
+		justify-content: center;
+		align-items: center;
+		max-width: 759px;
+		width: 85%;
+		text-align-last: center;
+	}
+	.hireMeBtn {
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+	
+	.hireMeBtn a {
+		font-family: 'GlacialIndifference-Bold';
+		font-size: 14px;
+		padding: 15px 48px;
+		background-color: #E93656;
+		color: #FFFFFF;
+	}
+	.thingsIKnow {
+		width: 75%;
+		margin-top:  30px;
+	}
+	.percentage {
+		margin: 10px auto;
+	}
+	.name {
+		font-size: 35px;
+	}
+
+	.me{
+		min-width: 307px;
+		min-height: 456px;
+		margin-right: 10px;
+	}
+	.personal-social {
+		margin-top: 0px;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+	.html.visible {
+		background: #E93656;
+	}
+	.css.visible {
+		background: #F55673;
+	}
+	.php.visible {
+		background: #F798A9;
+	}
+	.javascript.visible {
+		background: #F7788F;
+	}
+	.react.visible {
+		background: #F4C0C9;
+	}
+	.contacts-block {
+		justify-content: space-around;
+		height: 150px;
+	}
+	.same-margins {
+		align-items: center;
+		justify-content: center;
+	}
+	.same-pics {
+		width: 50px;
+		height: 50px;
+		margin-right: 10px;
+	}
+	.same-sizes {
+		font-size: 10px;
+		margin-right: 0px;
+	}
+	.email1 {
+		transform: translateX(20%);
+	}
+	.same-fonts a {
+		font-size: 9px;
+	}
+	.same-fonts {
+		font-size: 9px;
+	}
+
+	.firstLine {
+		width: 95%;
+	}
+	.secondLine {
+		width: 95%;
+	}
+	.services {
+		margin-top: 0px;
+	}
+	.sectionBlock {
+		width: 33%;
+		flex-wrap: nowrap;
+		height: 220px;
+	}
+	.serviceName {
+		font-size: 15px;
+	}
+	.lastOne {
+		display: none;
+	}
+	.sectionImg {
+		margin-top: 60px;
+	}
+	.recommendations {
+		margin-top: 50px;
+		justify-content: center;
+	}
+	.professionAndName {
+		margin-right: 0%;
+	}
+	.personName {
+		font-size: 12px;
+	}
+	.professionAndName img {
+		height: 15px;
+	}
+	.profession {
+		font-size: 10px;
+		margin-top: 20px;
+	}
+	.button {
+		margin-left: 3%;
+		margin-right: 20px;
+		width: 15px;
+		height: 15px;
+	}
+	.personImg {
+		width: 80px;
+		height: 80px;
+		padding: 5px;
+		margin-right: 10px;
+	}
+	.three-blocks {
+		justify-content: space-around;
+	}
+	.quotes {
+		margin-right: 0px;
+		font-size: 10px;
+	}
+	#forImage {
+		height: auto;
+		width: 70px;
+		border-radius: 50%;
+	}
+	.last_projects {
+		margin-top: 50px;
+		font-size: 30px;
+		width: 56%;
+		transform: translateX(0);
+		margin-left: 0px;
+	}
+	.projects {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.filters {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.filters :nth-child(6) {
+		width: 87px;
+		padding-left: 17px;
+	}
+	.latestProjects {
+		width: 100%;
+	}
+	.projectList {
+		border: solid 1px #f5d064;
+		padding: 4px;
+		border-radius: 3px;
+	}
+	.all_list {
+		width: 90%;
+		padding-left: 38%;
+	} 
+	.categories {
+		padding-top: 5px;
+		margin-right: 0px;
+	}
+	.projects-categories {
+		flex-direction: column;
+		width: 98%;
+		margin-bottom: 50px;
+	}
+	.projectName {
+		font-size: 12px;
+	}
+	.filters li {
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	.sameHeader {
+		font-size: 35px;
+		margin-bottom: 50px;
+	}
+	.firstBlock {
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		background-color: #FAFAFA;
+	}
+	.rightBox {
+		width: 88%;
+	}
+	.midleBox {
+		width: 12%;
+	}
+	.leftBox {
+		width: 90%;
+		justify-content: center;
+		text-align-last: center;
+		text-align: justify;
+		padding-left: 0px;
+	}
+	.secondBlock {
+		width: 100%;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		background-color: #FAFAFA;
+	}
+	.rotate {
+		font-size: 20px;
+		width: 155px;
+		height: 30px;
+		transform:rotate(-90deg) translateY(-170%);
+	}
+	.midleBox {
+		padding-top: 27%;
+	}
+	.thirdBlock {
+		width: 100%;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+		background-color: #FAFAFA;
+		margin-bottom: 50px;
+	}
+	.partnersList {
+		width: 90%;
+	}
+	.partnerImg {
+		height: 45px;
+		width: 45px;
+	}
+	.teamsList {
+		margin-bottom: 50px;
+	}
+	.contactHeader {
+		margin-top: 50px;
+		font-size: 28px;
+	}
+	.wrapper {
+		width: 90%;
+	}
+	.contactP {
+		font-size: 12px;
+	}
+	input {
+		height: 30px;
+		padding-right: 5px;
+		margin-right: 0px;
+		font-size: 8px;
+		padding-left: 5px;
+	}
+	textarea {
+		padding: 15px;
+		height: 90px;
+	}
+	.send {
+		font-family: 'GlacialIndifference-Bold';
+		font-size: 10px;
+		color: #E93656;
+		width: 100px;
+		height: 35px;
+		margin-bottom: 50px;
+	}
+	.rocaHeader {
+		margin-top: 35px;
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
+	.rocaPh{
+		font-size: 10px;
+		width: 70%;
+		margin-bottom: 30px;
+	}
+	.footerIcons {
+		margin-bottom: 30px;
+	}
+	.copyRight {
+		font-size: 10px;
 	}
 }

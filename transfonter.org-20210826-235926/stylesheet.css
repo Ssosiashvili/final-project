@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-ExtraBold/Poppins-ExtraBold.eot');
+    src: url('fonts/Poppins-ExtraBold/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Poppins-ExtraBold/Poppins-ExtraBold.woff2') format('woff2'),
+        url('fonts/Poppins-ExtraBold/Poppins-ExtraBold.woff') format('woff'),
+        url('fonts/Poppins-ExtraBold/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

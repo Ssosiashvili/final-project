@@ -1,21 +1,22 @@
 @font-face {
     font-family: 'Poppins-extraBold';
-    src: url('./fonts/Poppins-ExtraBold.eot');
-    src: url('./fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Poppins-ExtraBold.woff2') format('woff2'),
-        url('./fonts/Poppins-ExtraBold.woff') format('woff'),
-        url('./fonts/Poppins-ExtraBold.ttf') format('truetype');
+    src: url('../fonts/Poppins-ExtraBold.eot');
+    src: url('../fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Poppins-ExtraBold.woff') format('woff'),
+        url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url('./fonts/Montserrat-Bold.eot');
-    src: url('./fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/Montserrat-Bold.woff2') format('woff2'),
-        url('./fonts/Montserrat-Bold') format('woff'),
-        url('./fonts/Montserrat-Bold.ttf') format('truetype');
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
